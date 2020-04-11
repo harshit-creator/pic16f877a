@@ -1,0 +1,30 @@
+<circuit reactStep="50" type="simulide_0.1" noLinStep="10" animate="0" speed="1000000" noLinAcc="5">
+ 
+Ground-6: 
+<item valLabely="0" hflip="1" valLabelx="0" x="-276" labely="-24" valLabRot="0" id="Ground-6" labelrot="0" Show_id="false" objectName="Ground-6" itemtype="Ground" rotation="0" y="-404" labelx="-16" vflip="1"/>
+ 
+Led-3: 
+<item itemtype="Led" labelx="-16" hflip="1" labely="-24" valLabRot="0" Color="0" Show_id="false" rotation="0" y="-444" vflip="1" labelrot="0" Resistance="0.59999999999999998" id="Led-3" Grounded="false" valLabely="0" x="-316" MaxCurrent="0.029999999999999999" valLabelx="0" Threshold="2.3999999999999999" objectName="Led-3"/>
+ 
+Resistor-2: 
+<item itemtype="Resistor" labelx="-12" hflip="1" labely="-24" Unit=" O" valLabRot="0" Show_id="false" rotation="0" y="-444" vflip="1" labelrot="0" Resistance="100" id="Resistor-2" valLabely="6" Show_res="true" x="-356" valLabelx="-16" objectName="Resistor-2"/>
+ 
+pic16f877a-1: 
+<item itemtype="PIC" labelx="0" hflip="1" labely="-20" valLabRot="0" Show_id="true" rotation="0" y="-452" vflip="1" labelrot="0" Program="../../../Users/Harshit/MPLABXProjects/helloworld.X/dist/default/production/helloworld.X.production.hex" id="pic16f877a-1" Mhz="20" valLabely="0" x="-444" Ser_Monitor="false" Ser_Port="false" valLabelx="0" objectName="pic16f877a-1"/>
+ 
+Connector-4: 
+<item itemtype="Connector" labelx="-16" enodeid="enode-4" hflip="1" labely="-24" valLabRot="0" Show_id="false" rotation="0" y="-444" vflip="1" labelrot="0" startpinid="Resistor-2-rPin" id="Connector-4" valLabely="0" x="-340" endpinid="Led-3-lPin" valLabelx="0" pointList="-340,-444,-332,-444" objectName="Connector-4"/>
+ 
+Connector-5: 
+<item itemtype="Connector" labelx="-16" enodeid="enode-5" hflip="1" labely="-24" valLabRot="0" Show_id="false" rotation="0" y="-444" vflip="1" labelrot="0" startpinid="pic16f877a-1-RB7" id="Connector-5" valLabely="0" x="-388" endpinid="Resistor-2-lPin" valLabelx="0" pointList="-388,-444,-372,-444" objectName="Connector-5"/>
+ 
+Connector-7: 
+<item itemtype="Connector" labelx="-16" enodeid="enode-7" hflip="1" labely="-24" valLabRot="0" Show_id="false" rotation="0" y="-420" vflip="1" labelrot="0" startpinid="Ground-6-Gnd" id="Connector-7" valLabely="0" x="-276" endpinid="Led-3-rPin" valLabelx="0" pointList="-276,-420,-276,-444,-300,-444" objectName="Connector-7"/>
+ 
+PlotterWidget: 
+<item sizeIncrement="" sizePolicy="" palette="" accessibleDescription="" maximumWidth="1000" isActiveWindow="true" autoFillBackground="false" fullScreen="false" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" baseSize="" acceptDrops="false" maximumSize="" width="200" enabled="true" toolTip="" y="0" maximumHeight="200" objectName="PlotterWidget" layoutDirection="0" frameGeometry="" visible="false" whatsThis="" pos="" updatesEnabled="true" maximized="false" windowFilePath="" minimumHeight="200" minimumSize="" rect="" geometry="" mouseTracking="false" windowOpacity="1" size="" accessibleName="" MaxVolt="500" contextMenuPolicy="1" x="0" inputMethodHints="0" height="200" locale="" MinVolt="-500" childrenRegion="" minimumWidth="200" modal="false" cursor="" statusTip="" minimumSizeHint="" childrenRect="" windowModality="0" toolTipDuration="-1" focusPolicy="0" windowIcon="" normalGeometry="" windowIconText="" minimized="false" sizeHint="" windowTitle="" focus="false" frameSize="" windowModified="false" styleSheet="" itemtype="Plotter"/>
+ 
+SerialPortWidget: 
+<item sizeIncrement="" sizePolicy="" palette="" accessibleDescription="" maximumWidth="450" isActiveWindow="true" autoFillBackground="false" fullScreen="false" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" baseSize="" acceptDrops="false" maximumSize="" width="313" enabled="true" toolTip="" y="0" maximumHeight="170" objectName="SerialPortWidget" layoutDirection="0" frameGeometry="" visible="false" whatsThis="" pos="" SettingsProp="COM6,0,3,0,0,0" updatesEnabled="true" maximized="false" windowFilePath="" minimumHeight="0" minimumSize="" rect="" geometry="" mouseTracking="false" windowOpacity="1" size="" accessibleName="" contextMenuPolicy="1" x="0" inputMethodHints="0" height="141" locale="" childrenRegion="" minimumWidth="0" modal="false" cursor="" statusTip="" minimumSizeHint="" childrenRect="" windowModality="0" toolTipDuration="-1" focusPolicy="0" windowIcon="" normalGeometry="" windowIconText="" minimized="false" sizeHint="" windowTitle="Settings" focus="false" frameSize="" windowModified="false" styleSheet="" itemtype="SerialPort"/>
+ 
+</circuit>

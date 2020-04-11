@@ -1,0 +1,30 @@
+<circuit noLinStep="10" type="simulide_0.1" noLinAcc="5" reactStep="50" speed="1000000" animate="0">
+ 
+pic16f877a-4: 
+<item Mhz="20" labelx="0" labely="-20" objectName="pic16f877a-4" Ser_Port="false" valLabely="0" hflip="1" x="-444" id="pic16f877a-4" y="-452" vflip="1" valLabRot="0" valLabelx="0" itemtype="PIC" Show_id="true" Program="../../MPLABXProjects/Delay_using_timer.X/dist/default/production/Delay_using_timer.X.production.hex" rotation="0" Ser_Monitor="false" labelrot="0"/>
+ 
+Led-3: 
+<item labelx="-16" labely="-24" MaxCurrent="0.029999999999999999" objectName="Led-3" valLabely="0" hflip="1" x="-300" id="Led-3" Resistance="0.59999999999999998" y="-420" vflip="1" Threshold="2.3999999999999999" valLabRot="0" valLabelx="0" itemtype="Led" Color="0" Show_id="false" Grounded="false" rotation="0" labelrot="0"/>
+ 
+Ground-2: 
+<item vflip="1" itemtype="Ground" valLabelx="0" Show_id="false" labely="-24" rotation="0" labelrot="0" y="-404" id="Ground-2" labelx="-16" valLabely="0" hflip="1" objectName="Ground-2" x="-276" valLabRot="0"/>
+ 
+Resistor-1: 
+<item Unit=" O" labelx="-12" labely="-24" objectName="Resistor-1" valLabely="6" hflip="1" x="-348" Resistance="100" id="Resistor-1" y="-420" vflip="1" valLabRot="0" Show_res="true" valLabelx="-16" itemtype="Resistor" Show_id="false" rotation="0" labelrot="0"/>
+ 
+Connector-5: 
+<item enodeid="Circ_eNode-6" labelx="-16" labely="-24" objectName="Connector-5" pointList="-276,-420,-284,-420" endpinid="Led-3-rPin" valLabely="0" hflip="1" x="-276" id="Connector-5" startpinid="Ground-2-Gnd" y="-420" vflip="1" valLabRot="0" valLabelx="0" itemtype="Connector" Show_id="false" rotation="0" labelrot="0"/>
+ 
+Connector-7: 
+<item enodeid="Circ_eNode-8" labelx="-16" labely="-24" objectName="Connector-7" pointList="-364,-420,-388,-420" endpinid="pic16f877a-4-RB4" valLabely="0" hflip="1" x="-364" id="Connector-7" startpinid="Resistor-1-lPin" y="-420" vflip="1" valLabRot="0" valLabelx="0" itemtype="Connector" Show_id="false" rotation="0" labelrot="0"/>
+ 
+Connector-9: 
+<item enodeid="Circ_eNode-10" labelx="-16" labely="-24" objectName="Connector-9" pointList="-316,-420,-332,-420" endpinid="Resistor-1-rPin" valLabely="0" hflip="1" x="-316" id="Connector-9" startpinid="Led-3-lPin" y="-420" vflip="1" valLabRot="0" valLabelx="0" itemtype="Connector" Show_id="false" rotation="0" labelrot="0"/>
+ 
+PlotterWidget-11: 
+<item x="0" maximumWidth="1000" focus="false" baseSize="" windowIcon="" windowFilePath="" frameGeometry="" windowModality="0" modal="false" frameSize="" size="" y="0" styleSheet="" pos="" acceptDrops="false" whatsThis="" maximized="false" minimumHeight="200" palette="" fullScreen="false" updatesEnabled="true" toolTipDuration="-1" itemtype="Plotter" windowTitle="" minimumSizeHint="" toolTip="" focusPolicy="0" width="200" mouseTracking="false" accessibleName="" sizeIncrement="" childrenRect="" minimized="false" enabled="true" statusTip="" accessibleDescription="" MaxVolt="500" windowOpacity="1" layoutDirection="0" normalGeometry="" maximumSize="" sizePolicy="" autoFillBackground="false" objectName="PlotterWidget-11" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" locale="" MinVolt="-500" visible="false" height="200" inputMethodHints="0" windowIconText="" maximumHeight="200" rect="" sizeHint="" windowModified="false" isActiveWindow="true" minimumWidth="200" cursor="" geometry="" minimumSize="" childrenRegion="" contextMenuPolicy="1"/>
+ 
+SerialPortWidget-12: 
+<item x="0" maximumWidth="450" focus="false" baseSize="" windowIcon="" windowFilePath="" frameGeometry="" windowModality="0" modal="false" frameSize="" size="" y="0" styleSheet="" pos="" acceptDrops="false" whatsThis="" maximized="false" minimumHeight="0" palette="" fullScreen="false" updatesEnabled="true" toolTipDuration="-1" itemtype="SerialPort" windowTitle="Settings" SettingsProp="COM6,0,3,0,0,0" minimumSizeHint="" toolTip="" focusPolicy="0" width="313" mouseTracking="false" accessibleName="" sizeIncrement="" childrenRect="" minimized="false" enabled="true" statusTip="" accessibleDescription="" windowOpacity="1" layoutDirection="0" normalGeometry="" maximumSize="" sizePolicy="" autoFillBackground="false" objectName="SerialPortWidget-12" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" locale="" visible="false" height="141" inputMethodHints="0" windowIconText="" maximumHeight="170" rect="" sizeHint="" windowModified="false" isActiveWindow="true" minimumWidth="0" cursor="" geometry="" minimumSize="" childrenRegion="" contextMenuPolicy="1"/>
+ 
+</circuit>
